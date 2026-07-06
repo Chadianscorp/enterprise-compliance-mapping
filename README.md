@@ -11,7 +11,7 @@ This project establishes a production-ready, engineering-focused **Compliance Co
 
 This control matrix covers 6 foundational pillars of enterprise infrastructure security, establishing a continuous chain of compliance from asset definition to automated verification:
 
-| Asset / System Type | Security Threat / Risk | ISO/IEC 27001 Control | NIST SP 800-53 Rev 5 | Verification Engine | HIPAA Security Rule | HITRUST CSF |
+| Asset / System Type | Security Threat / Risk | ISO/IEC 27001 Control | NIST SP 800-53 Rev 5 | Verification | HIPAA (§164.312) | HITRUST CSF |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Endpoint Security** | Malware, Unauthorized Local Access | A.12.6.1, A.8.2.3 | CM-7, SI-3 | Qualys PC / GPO | §164.312(a)(2)(i) (Unique user identification); §164.312(c)(1) (Integrity controls) | 07.a (Information Classification); 09.ab (Monitoring System Use) |
 | **Identity & Access (IAM)** | Credential Hijacking, Brute-Force | A.9.2.1, A.9.4.2 | IA-2, AC-2 | Qualys PC Audit | §164.312(d) (Person authentication); §164.312(a)(2)(iii) (Automatic logoff) | 01.a (Access Control Policy); 01.b (User Registration) |
