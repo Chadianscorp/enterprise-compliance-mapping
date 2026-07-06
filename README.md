@@ -57,7 +57,7 @@ This control matrix covers 7 foundational pillars of enterprise infrastructure s
 ---
 
 ## 🚀 Key GRC Methodologies Demonstrated
-* **Multi-Framework Mapping:** Dual-alignment of technical security controls across standard enterprise commercial frameworks (ISO 27001) and federal oversight standards (NIST SP 800-53 Rev. 5).
+* **Multi-Framework Mapping:** Alignment of technical security controls across four regulatory frameworks (ISO/IEC 27001, NIST SP 800-53 Rev. 5, HIPAA Security Rule, and HITRUST CSF), establishing a unified control library that reduces duplication and consolidates compliance evidence collection.
 * **Automated Audit Readiness:** Transitioning traditional "point-in-time" manual auditing into continuous monitoring models using automated vulnerability and compliance tooling (Qualys PC, FIM, and VMDR).
 * **Evidentiary Integrity:** Explicitly defining technical verification steps and administrative artifacts to ensure defensible, ironclad compliance packages during third-party or federal assessments.
 * **Healthcare Compliance Integration:** Extended framework alignment to include HIPAA Security Rule (§164.312) and HITRUST CSF control references, enabling direct application to healthcare and regulated commercial environments requiring PHI protection and vendor risk governance.
