@@ -50,6 +50,10 @@ This control matrix covers 7 foundational pillars of enterprise infrastructure s
 * **Technical Enforcement:** Automated weekly vulnerability assessments executed across all internal enterprise subnets; critical operating system and application patches deployed within 14 days of commercial release; emergency out-of-band patching tracks established for zero-day exploits.
 * **Auditor Paper Trail:** Historical Qualys VMDR scan reports, centralized patch engine management logs detailing successful deployment rates, and a copy of the Vulnerability Management Policy.
 
+### 7. Third-Party/Vendor Risk Management
+* **Technical Enforcement:** Mandatory vendor risk assessments conducted prior to onboarding any third-party with access to organizational systems or data; contractual security requirements enforced via Business Associate Agreements (BAAs) and vendor contracts; annual reassessment cycle with SOC 2 Type II or equivalent documentation required for continued vendor approval.
+* **Auditor Paper Trail:** Completed vendor risk questionnaires, executed BAAs and vendor contracts containing explicit security clauses, vendor-provided SOC 2 Type II reports, and annual reassessment records demonstrating ongoing third-party compliance monitoring.
+
 ---
 
 ## 🚀 Key GRC Methodologies Demonstrated
