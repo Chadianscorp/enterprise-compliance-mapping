@@ -3,13 +3,13 @@
 ## 📌 Executive Summary
 In modern enterprise information security, organizations must satisfy multiple overlapping regulatory standards simultaneously. Manually mapping discrete assets to disjointed control frameworks—such as international standards (ISO/IEC 27001) and federal mandates (NIST SP 800-53)—frequently results in operational gaps, fragmented auditing, and visibility silos. 
 
-This project establishes a production-ready, engineering-focused **Compliance Control Matrix** that bridges the gap between high-level policy frameworks and ground-level technical enforcement. By mapping six core technical asset domains to specific compliance IDs, this matrix details the exact technical implementations required for systems engineering, configures automated verification via **Qualys Policy Compliance (PC)**, and defines the explicit audit evidence artifacts needed to pass rigorous third-party assessments. Expanded to include HIPAA Security Rule and HITRUST CSF mappings, establishing healthcare-specific compliance coverage alongside federal and international standards.
+This project establishes a production-ready, engineering-focused Compliance Control Matrix that bridges the gap between high-level policy frameworks and ground-level technical enforcement. Expanded to include HIPAA Security Rule and HITRUST CSF mappings alongside ISO/IEC 27001 and NIST SP 800-53, this matrix delivers healthcare-specific compliance coverage for organizations handling Protected Health Information (PHI) alongside federal and international standards.
 
 ---
 
 ## 🛠️ Matrix Architecture & Framework Alignment
 
-This control matrix covers 6 foundational pillars of enterprise infrastructure security, establishing a continuous chain of compliance from asset definition to automated verification:
+This control matrix covers 7 foundational pillars of enterprise infrastructure security, including Third-Party/Vendor Risk, establishing a continuous chain of compliance from asset definition to automated verification across NIST SP 800-53, ISO/IEC 27001, HIPAA, and HITRUST frameworks:
 
 | Asset / System Type | Security Threat / Risk | ISO/IEC 27001 Control | NIST SP 800-53 Rev 5 | Verification | HIPAA (§164.312) | HITRUST CSF |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -56,3 +56,6 @@ This control matrix covers 6 foundational pillars of enterprise infrastructure s
 * **Multi-Framework Mapping:** Dual-alignment of technical security controls across standard enterprise commercial frameworks (ISO 27001) and federal oversight standards (NIST SP 800-53 Rev. 5).
 * **Automated Audit Readiness:** Transitioning traditional "point-in-time" manual auditing into continuous monitoring models using automated vulnerability and compliance tooling (Qualys PC, FIM, and VMDR).
 * **Evidentiary Integrity:** Explicitly defining technical verification steps and administrative artifacts to ensure defensible, ironclad compliance packages during third-party or federal assessments.
+* **Healthcare Compliance Integration:** Extended framework alignment to include HIPAA Security Rule (§164.312) and HITRUST CSF control references, enabling direct application to healthcare and regulated commercial environments requiring PHI protection and vendor risk governance.
+
+
