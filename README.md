@@ -20,6 +20,7 @@ This control matrix covers 6 foundational pillars of enterprise infrastructure s
 | **Configuration Control / Cloud Infrastructure** | Configuration Drift, Unauthorized Changes | A.12.1.2, A.12.1.1 | CM-3, CM-2 | Qualys FIM / CIS | §164.312(c)(1) (Integrity); §164.312(a)(2)(ii) (Emergency access) | 09.i (Configuration Management); 10.m (Control of Technical Vulnerabilities) |
 | **Vulnerability & Patching** | Known Vulnerability Exploitation (CVEs) | A.12.6.1 | RA-5, SI-2 | Qualys VMDR | §164.308(a)(8) (Evaluation); §164.312(c)(1) (Integrity) | 10.m (Control of Technical Vulnerabilities); 09.ab (Monitoring System Use) |
 | **Third-Party/Vendor Risk** | Supply Chain Compromise, Vendor Data Breach | A.15.1.1, A.15.2.1 | SA-9, SR-6 | Qualys PC | §164.308(b)(1) (Business associate contracts); §164.314(a)(1) (BA contracts) | 09.ab (Monitoring System Use); 05.i (Risks Related to External Parties) |
+
 📎 Full compliance matrix with detailed technical implementation requirements, audit evidence artifacts, and complete control references available in the accompanying workbook.
 ---
 
