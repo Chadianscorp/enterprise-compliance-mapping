@@ -3,7 +3,7 @@
 ## 📌 Executive Summary
 In modern enterprise information security, organizations must satisfy multiple overlapping regulatory standards simultaneously. Manually mapping discrete assets to disjointed control frameworks—such as international standards (ISO/IEC 27001) and federal mandates (NIST SP 800-53)—frequently results in operational gaps, fragmented auditing, and visibility silos. 
 
-This project establishes a production-ready, engineering-focused **Compliance Control Matrix** that bridges the gap between high-level policy frameworks and ground-level technical enforcement. By mapping six core technical asset domains to specific compliance IDs, this matrix details the exact technical implementations required for systems engineering, configures automated verification via **Qualys Policy Compliance (PC)**, and defines the explicit audit evidence artifacts needed to pass rigorous third-party assessments.
+This project establishes a production-ready, engineering-focused **Compliance Control Matrix** that bridges the gap between high-level policy frameworks and ground-level technical enforcement. By mapping six core technical asset domains to specific compliance IDs, this matrix details the exact technical implementations required for systems engineering, configures automated verification via **Qualys Policy Compliance (PC)**, and defines the explicit audit evidence artifacts needed to pass rigorous third-party assessments. Expanded to include HIPAA Security Rule and HITRUST CSF mappings, establishing healthcare-specific compliance coverage alongside federal and international standards.
 
 ---
 
