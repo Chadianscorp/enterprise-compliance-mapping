@@ -11,15 +11,16 @@ This project establishes a production-ready, engineering-focused **Compliance Co
 
 This control matrix covers 6 foundational pillars of enterprise infrastructure security, establishing a continuous chain of compliance from asset definition to automated verification:
 
-| Asset / System Type | Security Threat / Risk | ISO/IEC 27001 Control | NIST SP 800-53 Rev 5 | Verification Engine |
-| :--- | :--- | :--- | :--- | :--- |
-| **Endpoint Security** | Malware, Unauthorized Local Access | A.12.6.1, A.8.2.3 | CM-7, SI-3 | Qualys PC / GPO |
-| **Identity & Access (IAM)** | Credential Hijacking, Brute-Force | A.9.2.1, A.9.4.2 | IA-2, AC-2 | Qualys PC Audit |
-| **SIEM & Central Logging** | Intrusion Blindspots, Log Tampering | A.12.4.1, A.12.4.2 | AU-2, AU-6, AU-9 | Qualys PC & FIM |
-| **Network Boundaries** | Lateral Movement, Data Exfiltration | A.13.1.1, A.13.1.3 | SC-7, AC-4 | Qualys Config Audit |
-| **Configuration Control** | Configuration Drift, Unauthorized Changes | A.12.1.2, A.12.1.1 | CM-3, CM-2 | Qualys FIM / CIS |
-| **Vulnerability & Patching** | Known Vulnerability Exploitation (CVEs) | A.12.6.1 | RA-5, SI-2 | Qualys VMDR |
-
+| Asset / System Type | Security Threat / Risk | ISO/IEC 27001 Control | NIST SP 800-53 Rev 5 | Verification Engine | HIPAA Security Rule | HITRUST CSF |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Endpoint Security** | Malware, Unauthorized Local Access | A.12.6.1, A.8.2.3 | CM-7, SI-3 | Qualys PC / GPO | §164.312(a)(2)(i) (Unique user identification); §164.312(c)(1) (Integrity controls) | 07.a (Information Classification); 09.ab (Monitoring System Use) |
+| **Identity & Access (IAM)** | Credential Hijacking, Brute-Force | A.9.2.1, A.9.4.2 | IA-2, AC-2 | Qualys PC Audit | §164.312(d) (Person authentication); §164.312(a)(2)(iii) (Automatic logoff) | 01.a (Access Control Policy); 01.b (User Registration) |
+| **SIEM & Central Logging** | Intrusion Blindspots, Log Tampering | A.12.4.1, A.12.4.2 | AU-2, AU-6, AU-9 | Qualys PC & FIM | §164.312(b) (Audit controls); §164.312(c)(2) (Integrity mechanism) | 09.aa (Audit Logging); 09.ab (Monitoring System Use) |
+| **Network Boundaries** | Lateral Movement, Data Exfiltration | A.13.1.1, A.13.1.3 | SC-7, AC-4 | Qualys Config Audit | §164.312(e)(1) (Transmission security); §164.312(a)(1) (Access control) | 09.m (Network Controls); 01.d (User Password Management) |
+| **Configuration Control / Cloud Infrastructure** | Configuration Drift, Unauthorized Changes | A.12.1.2, A.12.1.1 | CM-3, CM-2 | Qualys FIM / CIS | §164.312(c)(1) (Integrity); §164.312(a)(2)(ii) (Emergency access) | 09.i (Configuration Management); 10.m (Control of Technical Vulnerabilities) |
+| **Vulnerability & Patching** | Known Vulnerability Exploitation (CVEs) | A.12.6.1 | RA-5, SI-2 | Qualys VMDR | §164.308(a)(8) (Evaluation); §164.312(c)(1) (Integrity) | 10.m (Control of Technical Vulnerabilities); 09.ab (Monitoring System Use) |
+| **Third-Party/Vendor Risk** | Supply Chain Compromise, Vendor Data Breach | A.15.1.1, A.15.2.1 | SA-9, SR-6 | Qualys PC | §164.308(b)(1) (Business associate contracts); §164.314(a)(1) (BA contracts) | 09.ab (Monitoring System Use); 05.i (Risks Related to External Parties) |
+📎 Full compliance matrix with detailed technical implementation requirements, audit evidence artifacts, and complete control references available in the accompanying workbook.
 ---
 
 ## 🔍 Core Security Implementation Breakdown
